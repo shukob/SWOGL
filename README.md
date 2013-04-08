@@ -7,17 +7,17 @@ Objective-C GLKit sample for 2D rendering
 Usage
 -----------
 
-1. Layer
+*Layer
 
     SWOGLLayer *layer = [SWOGLLayer new];
     [layer loadTextureAtPath:absolutePath];
 	layer.depth = -1;
 
-2. Texture
+*Texture
 
     SWOGLTexture *texture = [SWOGLTexture textureWithImage:image scale:2.0];
 
-3. LayerSet
+*LayerSet
 
     SWOGLLayerSet *layerSet = [SWOGLLayerSet new];
     [layerSet addLayer:layer];
@@ -26,7 +26,7 @@ Usage
     //because layerSet adds its own offset depth for children.
 	
 	
-4. ViewController
+*ViewController
 
     //Subclassing SWOGLViewController, 
     [self.layers addObject:layer];
@@ -35,7 +35,7 @@ Usage
     [self.layers addObject:layerSet];
     //displays a layerSet content as well
 	
-5. TextLayer
+*TextLayer
 	
     SWOGLTextLayer *textLayer = [SWOGLTextLayer new];
     textLayer.text = @"some string";
@@ -45,4 +45,4 @@ Usage
 	[textLayer loadTexture];
 	//This draws an image for provided properties and load a texture
 
-6. Animation	
+*Animation	
