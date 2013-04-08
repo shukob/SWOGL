@@ -8,17 +8,17 @@ I was learned a lot from blog posts, e.g. http://www.raywenderlich.com/9743/how-
 Usage
 -----------
 
-# Layer #
+## Layer ##
 
     SWOGLLayer *layer = [SWOGLLayer new];
     [layer loadTextureAtPath:absolutePath];
 	layer.depth = -1;
 
-# Texture #
+## Texture ##
 
     SWOGLTexture *texture = [SWOGLTexture textureWithImage:image scale:2.0];
 
-# LayerSet #
+## LayerSet ##
 
     SWOGLLayerSet *layerSet = [SWOGLLayerSet new];
     [layerSet addLayer:layer];
@@ -26,7 +26,7 @@ Usage
     //The layer's depth becomes -11 if layer's own depth is -1 
     //because layerSet adds its own offset depth for children.
 	
-# ViewController #
+## ViewController ##
 
     //Subclassing SWOGLViewController, 
     [self.layers addObject:layer];
@@ -35,7 +35,7 @@ Usage
     [self.layers addObject:layerSet];
     //displays a layerSet content as well
 	
-# TextLayer #
+## TextLayer ##
 	
     SWOGLTextLayer *textLayer = [SWOGLTextLayer new];
     textLayer.text = @"some string";
@@ -45,6 +45,12 @@ Usage
 	[textLayer loadTexture];
 	//This draws an image for provided properties and load a texture
 
-# Animation	#
+## Animation ##
     
     //TODO
+
+
+
+Licensed under the MIT license.
+
+
