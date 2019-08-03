@@ -3,7 +3,7 @@ SimpleGLK2D
 
 Objective-C GLKit sample for 2D rendering
 
-I was learned a lot from blog posts, e.g. http://www.raywenderlich.com/9743/how-to-create-a-simple-2d-iphone-game-with-opengl-es-2-0-and-glkit-part-1, http://games.ianterrell.com/2d-game-engine-tutorial/, etc...
+I learned a lot from blog posts, e.g. http://www.raywenderlich.com/9743/how-to-create-a-simple-2d-iphone-game-with-opengl-es-2-0-and-glkit-part-1, http://games.ianterrell.com/2d-game-engine-tutorial/, etc...
 
 Usage
 -----------
